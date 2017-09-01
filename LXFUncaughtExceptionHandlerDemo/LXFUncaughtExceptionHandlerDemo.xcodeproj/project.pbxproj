@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD97AEFA1F59C1CC00A50B2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AEF91F59C1CC00A50B2B /* main.m */; };
+		FD97AEFD1F59C1CC00A50B2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AEFC1F59C1CC00A50B2B /* AppDelegate.m */; };
+		FD97AF001F59C1CC00A50B2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AEFF1F59C1CC00A50B2B /* ViewController.m */; };
+		FD97AF031F59C1CC00A50B2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD97AF011F59C1CC00A50B2B /* Main.storyboard */; };
+		FD97AF051F59C1CC00A50B2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD97AF041F59C1CC00A50B2B /* Assets.xcassets */; };
+		FD97AF081F59C1CC00A50B2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD97AF061F59C1CC00A50B2B /* LaunchScreen.storyboard */; };
+		FD97AF121F59C1E400A50B2B /* LXFUncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AF111F59C1E400A50B2B /* LXFUncaughtExceptionHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD97AEF51F59C1CC00A50B2B /* LXFUncaughtExceptionHandlerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXFUncaughtExceptionHandlerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD97AEF91F59C1CC00A50B2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD97AEFB1F59C1CC00A50B2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD97AEFC1F59C1CC00A50B2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD97AEFE1F59C1CC00A50B2B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD97AEFF1F59C1CC00A50B2B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD97AF021F59C1CC00A50B2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD97AF041F59C1CC00A50B2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD97AF071F59C1CC00A50B2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD97AF091F59C1CC00A50B2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD97AF101F59C1E400A50B2B /* LXFUncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFUncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		FD97AF111F59C1E400A50B2B /* LXFUncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFUncaughtExceptionHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD97AEF21F59C1CC00A50B2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD97AEEC1F59C1CC00A50B2B = {
+			isa = PBXGroup;
+			children = (
+				FD97AEF71F59C1CC00A50B2B /* LXFUncaughtExceptionHandlerDemo */,
+				FD97AEF61F59C1CC00A50B2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD97AEF61F59C1CC00A50B2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD97AEF51F59C1CC00A50B2B /* LXFUncaughtExceptionHandlerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD97AEF71F59C1CC00A50B2B /* LXFUncaughtExceptionHandlerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FD97AF0F1F59C1E400A50B2B /* LXFUncaughtExceptionHandler */,
+				FD97AEFB1F59C1CC00A50B2B /* AppDelegate.h */,
+				FD97AEFC1F59C1CC00A50B2B /* AppDelegate.m */,
+				FD97AEFE1F59C1CC00A50B2B /* ViewController.h */,
+				FD97AEFF1F59C1CC00A50B2B /* ViewController.m */,
+				FD97AF011F59C1CC00A50B2B /* Main.storyboard */,
+				FD97AF041F59C1CC00A50B2B /* Assets.xcassets */,
+				FD97AF061F59C1CC00A50B2B /* LaunchScreen.storyboard */,
+				FD97AF091F59C1CC00A50B2B /* Info.plist */,
+				FD97AEF81F59C1CC00A50B2B /* Supporting Files */,
+			);
+			path = LXFUncaughtExceptionHandlerDemo;
+			sourceTree = "<group>";
+		};
+		FD97AEF81F59C1CC00A50B2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD97AEF91F59C1CC00A50B2B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD97AF0F1F59C1E400A50B2B /* LXFUncaughtExceptionHandler */ = {
+			isa = PBXGroup;
+			children = (
+				FD97AF101F59C1E400A50B2B /* LXFUncaughtExceptionHandler.h */,
+				FD97AF111F59C1E400A50B2B /* LXFUncaughtExceptionHandler.m */,
+			);
+			path = LXFUncaughtExceptionHandler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD97AEF41F59C1CC00A50B2B /* LXFUncaughtExceptionHandlerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD97AF0C1F59C1CC00A50B2B /* Build configuration list for PBXNativeTarget "LXFUncaughtExceptionHandlerDemo" */;
+			buildPhases = (
+				FD97AEF11F59C1CC00A50B2B /* Sources */,
+				FD97AEF21F59C1CC00A50B2B /* Frameworks */,
+				FD97AEF31F59C1CC00A50B2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXFUncaughtExceptionHandlerDemo;
+			productName = LXFUncaughtExceptionHandlerDemo;
+			productReference = FD97AEF51F59C1CC00A50B2B /* LXFUncaughtExceptionHandlerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD97AEED1F59C1CC00A50B2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LXF;
+				TargetAttributes = {
+					FD97AEF41F59C1CC00A50B2B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FD97AEF01F59C1CC00A50B2B /* Build configuration list for PBXProject "LXFUncaughtExceptionHandlerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD97AEEC1F59C1CC00A50B2B;
+			productRefGroup = FD97AEF61F59C1CC00A50B2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD97AEF41F59C1CC00A50B2B /* LXFUncaughtExceptionHandlerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD97AEF31F59C1CC00A50B2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD97AF081F59C1CC00A50B2B /* LaunchScreen.storyboard in Resources */,
+				FD97AF051F59C1CC00A50B2B /* Assets.xcassets in Resources */,
+				FD97AF031F59C1CC00A50B2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD97AEF11F59C1CC00A50B2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD97AF001F59C1CC00A50B2B /* ViewController.m in Sources */,
+				FD97AEFD1F59C1CC00A50B2B /* AppDelegate.m in Sources */,
+				FD97AF121F59C1E400A50B2B /* LXFUncaughtExceptionHandler.m in Sources */,
+				FD97AEFA1F59C1CC00A50B2B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD97AF011F59C1CC00A50B2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD97AF021F59C1CC00A50B2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD97AF061F59C1CC00A50B2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD97AF071F59C1CC00A50B2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD97AF0A1F59C1CC00A50B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD97AF0B1F59C1CC00A50B2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD97AF0D1F59C1CC00A50B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXFUncaughtExceptionHandlerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LXF.LXFUncaughtExceptionHandlerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD97AF0E1F59C1CC00A50B2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXFUncaughtExceptionHandlerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LXF.LXFUncaughtExceptionHandlerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD97AEF01F59C1CC00A50B2B /* Build configuration list for PBXProject "LXFUncaughtExceptionHandlerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD97AF0A1F59C1CC00A50B2B /* Debug */,
+				FD97AF0B1F59C1CC00A50B2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD97AF0C1F59C1CC00A50B2B /* Build configuration list for PBXNativeTarget "LXFUncaughtExceptionHandlerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD97AF0D1F59C1CC00A50B2B /* Debug */,
+				FD97AF0E1F59C1CC00A50B2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD97AEED1F59C1CC00A50B2B /* Project object */;
+}
